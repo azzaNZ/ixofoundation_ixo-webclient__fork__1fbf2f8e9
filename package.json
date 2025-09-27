@@ -13,8 +13,8 @@
     "test": "craco test --watchAll=false",
     "test:watch": "TZ=UTC craco test",
     "test:watch:win": "set \"TZ=UTC\" && craco test",
-    "lint": "eslint --quiet --ext=js,jsx,ts,tsx src",
-    "lint:fix": "eslint --ext=js,jsx,ts,tsx src --fix",
+    "lint": "eslint --quiet src",
+    "lint:fix": "eslint src --fix",
     "format": "prettier --ext=js,jsx,ts,tsx,css,md,json src --write --config ./.prettierrc",
     "postinstall": "patch-package",
     "patch": "patch-package"
