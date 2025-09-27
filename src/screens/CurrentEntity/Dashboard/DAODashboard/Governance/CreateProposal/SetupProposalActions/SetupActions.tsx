@@ -33,7 +33,7 @@ const SetupActions: React.FC = () => {
         <Button variant='secondary' onClick={handleBack}>
           Back
         </Button>
-        <Button onClick={handleContinue} disabled={validActions.length === 0}>
+        <Button onClick={handleContinue}>
           Continue
         </Button>
       </FlexBox>
