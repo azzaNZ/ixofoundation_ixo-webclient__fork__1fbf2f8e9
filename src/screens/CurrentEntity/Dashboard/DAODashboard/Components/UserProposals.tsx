@@ -220,7 +220,6 @@ const UserProposals: React.FC<Props> = ({ show, coreAddress, userAddress, full =
           textSize='base'
           textTransform='capitalize'
           textWeight='medium'
-          disabled={!isParticipating}
         >
           New Proposal
         </Button>
